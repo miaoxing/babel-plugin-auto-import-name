@@ -37,7 +37,7 @@ jobs:
         run: npx replace-pkg-dep package.json
 
       - name: Yarn install
-        run: yarn install
+        run: yarn add @miaoxing/dev
 
       - name: Run
         run: yarn miaoxing-jest
@@ -91,7 +91,7 @@ jobs:
         run: npx replace-pkg-dep package.json
 
       - name: Yarn install
-        run: yarn install
+        run: yarn add @miaoxing/dev
 
       - name: Run
         run: yarn miaoxing-eslint
@@ -125,7 +125,7 @@ jobs:
         run: npx replace-pkg-dep package.json
 
       - name: Yarn install
-        run: yarn install
+        run: yarn add @miaoxing/dev
 
       - name: Run
         run: yarn miaoxing-stylelint
