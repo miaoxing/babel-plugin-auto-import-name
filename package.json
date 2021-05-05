@@ -5,5 +5,8 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
   }
 }
